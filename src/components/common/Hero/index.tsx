@@ -1,39 +1,53 @@
 import styles from './Hero.module.css';
+import { useState, useEffect } from 'react';
 
 type HeroProps = {
   images: string[],
   title:string;
   subtitle: string;
+  interval?:number; // default 5 seconds
 }
 
-const Hero = ({ images, title, subtitle }: HeroProps) => {
+const Hero = ({ images, title, subtitle, interval = 5000 }: HeroProps) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex(prev => (prev + 1) % images.length);
+    }, interval);
+
+    return () => clearInterval(timer); //Clear interval when component is dismount
+  }, [images.length, interval]);
+
+  const goPrev = () => {
+    setCurrentIndex(prev => (prev -1 + images.length) % images.length);
+  };
+
+  const goNext = () => {
+    setCurrentIndex(prev => (prev + 1) % images.length);
+  }
+
   return (
     <div className={`${styles.heroContainer} position-relative`}>
-      <div id="heroCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-
-          {
-            images.map(picture => (
-              <div className="carousel-item active" key={picture}>
-                <img src={picture} className={`d-block w-100 ${styles.heroImg}`} alt="Slide 1" />
-              </div>
-            ))
-          }
-        </div>
-
-        {/* Flechas de navegación */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
+      <div className={styles.carouselWrapper}>
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={`Slide ${index}`}
+            className={`${styles.slide} ${index === currentIndex ? styles.active : ''}`}
+          />
+        ))}
       </div>
 
-      {/* Capa de texto encima del carrusel */}
+      {/* Flechas de navegación */}
+      <button className={styles.prevBtn} onClick={goPrev}>❮</button>
+      <button className={styles.nextBtn} onClick={goNext}>❯</button>
+
+      {/* Texto superpuesto */}
       <div className={`${styles.heroText} position-absolute top-50 start-50 translate-middle text-white text-center`}>
-        <h1 className="display-4 fw-bold">{ title }</h1>
-        <p className="lead">{ subtitle }</p>
+        <h1 className="display-4 fw-bold">{title}</h1>
+        <p className="lead">{subtitle}</p>
       </div>
     </div>
   );

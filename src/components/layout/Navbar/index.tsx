@@ -15,9 +15,9 @@ function Navbar(){
 
     return(
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
                 <Link className="navbar-brand" to="/">
-                        Jose Angel Full-Stack Developer
+                        Angel Full-Stack Developer
                 </Link>
 
                 <div className="ms-auto">
