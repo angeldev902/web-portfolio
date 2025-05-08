@@ -1,0 +1,37 @@
+/* Phone version */
+.heroContainer {
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+  
+.heroImg {
+  object-fit: cover;
+  height: 50vh;
+  filter: brightness(60%); /* Oscurece el fondo para destacar el texto */
+}
+
+.heroText h1, .heroText p {
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+
+/* Tablets version */
+@media (min-width: 768px) {
+  .heroContainer {
+    height: 70vh;
+  }
+  
+  .heroImg {
+    height: 70vh;
+  }
+}
+
+/* Destktop version */
+@media (min-width: 1024px) {
+  .heroContainer {
+    height: 70vh;
+  }
+  .heroImg {
+    height: 70vh;
+  }
+}

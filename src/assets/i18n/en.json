@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "portfolio": {
+        "title": "Full-Stack Developer",
+        "resume": "I'm a full-stack developer with over five years of experience working with a variety of technologies, including JavaScript, Node.js, Express.js, NestJS, Next.js, Angular, React, Java, Spring Boot, Python, and Django. I also have experience in other languages ​​such as PHP and C#, which, combined with my experience, allows me to quickly integrate into teams working with frameworks like Laravel or .NET.",
+        "technologies": "Technologies that I master",
+        "projects": "Featured projects",
+        "projectsAbput": "Learn more about the projects I have developed.",
+        "seeProjects": "See projects"
+    },
+    "footer": {
+        "rights": "All rights reserved"
+    }
+}
