@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { lazy, Suspense } from 'react';
+import { lazy, Suspense } from 'react';
 //Layout
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
@@ -13,7 +13,7 @@ const Skills = lazy(() => import('./pages/Skills'));
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/web-portfolio">
         <Navbar/>
         <div>
         <Suspense fallback={<div>Cargando...</div>}>

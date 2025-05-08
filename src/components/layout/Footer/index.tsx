@@ -17,7 +17,7 @@ function Footer(){
                 </a>
               </div>
 
-              <p className="mt-3 mb-0">&copy; {new Date().getFullYear()} Jose Angel Full-Stack Developer. Todos los derechos reservados.</p>
+              <p className="mt-3 mb-0">&copy; {new Date().getFullYear()} Jose Angel Full-Stack Developer. {t.footer.rights}</p>
             </div>
         </footer>
     </>)
