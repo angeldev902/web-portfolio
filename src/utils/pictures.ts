@@ -8,6 +8,15 @@ import projectPicture1 from '../assets/images/portfolio/projetcs.png'
 import experience from '../assets/images/about/experience.png';
 import goals from '../assets/images/about/goals.png';
 import workPhilosophy from '../assets/images/about/workPhilosophy.png';
+//Skills
+import skills1 from '../assets/images/skills/skills1.jpg';
+import skills2 from '../assets/images/skills/skills2.jpg';
+import skills3 from '../assets/images/skills/skills3.jpg';
+import programmingLanguages from '../assets/images/skills/programmingLanguages.jpg';
+import database from '../assets/images/skills/database.png';
+import server from '../assets/images/skills/server.png';
+import styles from '../assets/images/skills/styles.png';
+import github from '../assets/images/skills/github.png';
 
 const portfolioImages = {
     hero: [hero1, hero2, hero3],
@@ -15,7 +24,13 @@ const portfolioImages = {
     projectPicture1,
     experience,
     goals,
-    workPhilosophy
+    workPhilosophy,
+    skills: [skills1, skills2, skills3],
+    programmingLanguages,
+    database,
+    server,
+    styles,
+    github
 }
 
 export default portfolioImages;

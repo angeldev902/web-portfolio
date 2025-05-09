@@ -41,5 +41,16 @@
         "goalsText": "Me considero una persona honesta, responsable, persistente, respetuosa y adaptable.Mi meta es seguir desarrollándome a nivel personal y profesional, manteniéndome actualizado en nuevas tecnologías, y contribuyendo al éxito de los proyectos en los que participo con compromiso y calidad.",
         "workPhilosophy": "Filosofía de trabajo",
         "workPhilosophyText": "Creo firmemente en el poder del trabajo colaborativo, la mejora continua y la responsabilidad profesional. Me esfuerzo por escribir código limpio, mantener buenas prácticas y documentar mis soluciones para que otros puedan construir sobre ellas. Valoro la comunicación abierta, el aprendizaje constante y el compromiso con entregar valor real en cada iteración. Para mí, la tecnología no es solo una herramienta, sino un medio para transformar ideas en soluciones que impacten positivamente a las personas."
+    },
+    "skills": {
+        "hardSkills": "Habilidades Técnicas",
+        "programmingLanguages": "Lenguajes de programación",
+        "programmingLanguagesText": "Soy consciente de que existen otros lenguajes especializados, como Kotlin, Swift o Dart para desarrollo móvil, así como modernos como Go para sistemas distribuidos. Aunque aún no los he utilizado profesionalmente, me entusiasma seguir aprendiendo y me encantaría profundizar en ellos para ampliar mis capacidades como desarrollador.",
+        "frameworks": "Frameworks y bibliotecas",
+        "frameworksText": "Estoy seguro de que podría adaptarme fácilmente a entornos basados en otras tecnologías como Laravel, Symfony, .NET o Vue.js, ya que disfruto el reto de aprender y enfrentarme a nuevas herramientas.",
+        "dataBases": "Bases de datos",
+        "tools": "Herramientas y tecnologías",
+        "styles": "Estilos / UI",
+        "softSkills": "Habilidades Blandas"
     }
 }

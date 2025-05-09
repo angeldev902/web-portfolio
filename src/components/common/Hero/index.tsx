@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 type HeroProps = {
   images: string[],
   title:string;
-  subtitle: string;
+  subtitle?: string;
   interval?:number; // default 5 seconds
 }
 
@@ -47,7 +47,9 @@ const Hero = ({ images, title, subtitle, interval = 5000 }: HeroProps) => {
       {/* Texto superpuesto */}
       <div className={`${styles.heroText} position-absolute top-50 start-50 translate-middle text-white text-center`}>
         <h1 className="display-4 fw-bold">{title}</h1>
-        <p className="lead">{subtitle}</p>
+        { subtitle && (
+          <p className="lead">{subtitle}</p>
+        )}
       </div>
     </div>
   );
