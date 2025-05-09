@@ -16,5 +16,30 @@
     },
     "footer": {
         "rights": "All rights reserved"
+    },
+    "about": {
+        "me": "I am a full-stack developer with over five years of experience developing RESTful APIs and web applications. Since high school, I discovered a passion for computing, especially programming, which motivated me to study Computer Systems Engineering, culminating in my degree as an engineer. I am currently seeking new professional challenges where I can continue to grow and contribute value.",
+        "experience": "Experience",
+        "experieciaText": "Throughout my career, I've participated in numerous projects using agile methodologies such as Scrum and Kanban, collaborating on multidisciplinary teams. My main contributions include:",
+        "goals": [
+            "Development of secure and efficient RESTful APIs with frameworks such as Node.js, Express.js, NestJS, Spring Boot, and Django.",
+            "Creation of responsive websites with Angular, React, Next.js, and previous experience with AngularJS.",
+            "Styled using CSS, SCSS, and libraries such as Bootstrap and Angular Material.",
+            "Integration of external services using GraphQL, JSON, and XML.",
+            "Optimization of systems and endpoints, achieving significant improvements in response times.",
+            "Implementation of security measures such as JWT and CORS management."
+        ],
+        "skills": [
+            "Effective communication",
+            "Teamwork",
+            "Troubleshooting",
+            "Critical thinking",
+            "Adaptability",
+            "Emotional intelligence"
+        ],
+        "goalsTitle": "Values and goals",
+        "goalsText": "I consider myself an honest, responsible, persistent, respectful, and adaptable person. My goal is to continue developing personally and professionally, staying up-to-date on new technologies, and contributing to the success of the projects I participate in with commitment and quality.",
+        "workPhilosophy": "Work philosophy",
+        "workPhilosophyText": "I firmly believe in the power of collaborative work, continuous improvement, and professional accountability. I strive to write clean code, maintain best practices, and document my solutions so others can build upon them. I value open communication, constant learning, and a commitment to delivering real value with each iteration. For me, technology is not just a tool, but a means to transform ideas into solutions that positively impact people."
     }
 }

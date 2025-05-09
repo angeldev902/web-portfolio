@@ -16,5 +16,30 @@
     },
     "footer": {
         "rights": "Todos los derechos reservados"
+    },
+    "about": {
+        "me": "Soy un desarrollador Full-Stack con más de cinco años de experiencia en el desarrollo de APIs RESTful y aplicaciones web. Desde el bachillerato descubrí una pasión por la computación, especialmente por la programación, lo que me motivó a estudiar la carrera de Ingeniería en Sistemas Computacionales, culminando con mi graduación como ingeniero. Actualmente me encuentro en búsqueda de nuevos retos profesionales donde pueda seguir creciendo y aportando valor.",
+        "experience": "Experiecia",
+        "experieciaText": "A lo largo de mi trayectoria he participado en múltiples proyectos bajo metodologías ágiles como Scrum y Kanban, colaborando en equipos multidisciplinarios. Entre mis principales aportaciones se encuentran:",
+        "goals": [
+            "Desarrollo de APIs RESTful seguras y eficientes con frameworks como Node.js, Express.js, NestJS, Spring Boot y Django.",
+            "Creación de sitios web responsivos con Angular, React, Next.js y experiencia previa con AngularJS.",
+            "Estilización usando CSS, SCSS y librerías como Bootstrap y Angular Material.",
+            "Integración de servicios externos mediante GraphQL, JSON y XML.",
+            "Optimización de sistemas y endpoints, logrando una mejora significativa en tiempos de respuesta.",
+            "Implementación de medidas de seguridad como JWT y gestión de CORS."
+        ],
+        "skills": [
+            "Comunicación efectiva",
+            "Trabajo en equipo",
+            "Resolución de problemas",
+            "Pensamiento crítico",
+            "Adaptabilidad",
+            "Inteligencia emocional"
+        ],
+        "goalsTitle": "Valores y metas",
+        "goalsText": "Me considero una persona honesta, responsable, persistente, respetuosa y adaptable.Mi meta es seguir desarrollándome a nivel personal y profesional, manteniéndome actualizado en nuevas tecnologías, y contribuyendo al éxito de los proyectos en los que participo con compromiso y calidad.",
+        "workPhilosophy": "Filosofía de trabajo",
+        "workPhilosophyText": "Creo firmemente en el poder del trabajo colaborativo, la mejora continua y la responsabilidad profesional. Me esfuerzo por escribir código limpio, mantener buenas prácticas y documentar mis soluciones para que otros puedan construir sobre ellas. Valoro la comunicación abierta, el aprendizaje constante y el compromiso con entregar valor real en cada iteración. Para mí, la tecnología no es solo una herramienta, sino un medio para transformar ideas en soluciones que impacten positivamente a las personas."
     }
 }
