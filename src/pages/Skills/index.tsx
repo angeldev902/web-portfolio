@@ -2,7 +2,6 @@ import portfolioImages from "../../utils/pictures";
 import Hero from "../../components/common/Hero";
 import SimpleList from "../../components/common/SimpleList";
 import { useTranslations } from "../../hooks/useTranslations";
-import { data } from "react-router-dom";
 import List from "../../components/common/List";
 
 const programmingLanguages = ['JavaScript', 'TypeScript', 'Java', 'Python', 'PHP', 'SQL', 'C#'];
@@ -22,13 +21,13 @@ function Skills(){
         <SimpleList
             title={t.skills.programmingLanguages}
             list={programmingLanguages}
-            imgSrc={portfolioImages.programmingLanguages}
+            imgSrc={portfolioImages.skills[0]}
             finalText={t.skills.programmingLanguagesText}
         />
         <SimpleList
             title={t.skills.frameworks}
             list={frameworks}
-            imgSrc={portfolioImages.skills[2]}
+            imgSrc={portfolioImages.hero[0]}
             reverse={true}
             finalText={t.skills.frameworksText}
         />

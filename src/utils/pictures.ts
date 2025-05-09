@@ -11,8 +11,7 @@ import workPhilosophy from '../assets/images/about/workPhilosophy.png';
 //Skills
 import skills1 from '../assets/images/skills/skills1.jpg';
 import skills2 from '../assets/images/skills/skills2.jpg';
-import skills3 from '../assets/images/skills/skills3.jpg';
-import programmingLanguages from '../assets/images/skills/programmingLanguages.jpg';
+import programmingLanguages from '../assets/images/skills/programmingLanguages.png';
 import database from '../assets/images/skills/database.png';
 import server from '../assets/images/skills/server.png';
 import styles from '../assets/images/skills/styles.png';
@@ -25,7 +24,7 @@ const portfolioImages = {
     experience,
     goals,
     workPhilosophy,
-    skills: [skills1, skills2, skills3],
+    skills: [skills1, skills2, programmingLanguages],
     programmingLanguages,
     database,
     server,
