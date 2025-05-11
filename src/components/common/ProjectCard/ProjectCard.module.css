@@ -1,0 +1,5 @@
+.backgroundImage {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 120px; /* o `contain` o `cover` según lo que necesites */
+}

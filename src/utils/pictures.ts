@@ -16,6 +16,16 @@ import database from '../assets/images/skills/database.png';
 import server from '../assets/images/skills/server.png';
 import styles from '../assets/images/skills/styles.png';
 import github from '../assets/images/skills/github.png';
+//Projects
+import car from '../assets/images/projects/car.svg';
+import food from '../assets/images/projects/food.svg';
+import packageImage from '../assets/images/projects/package.png';
+import survey from '../assets/images/projects/survey.png';
+import packageImage2 from '../assets/images/projects/package2.svg';
+import yatch from '../assets/images/projects/yacht.png';
+import ticket from '../assets/images/projects/ticket.png';
+import shoes from '../assets/images/projects/shoes.png';
+import developer from '../assets/images/projects/full-stack-developer.svg';
 
 const portfolioImages = {
     hero: [hero1, hero2, hero3],
@@ -29,7 +39,17 @@ const portfolioImages = {
     database,
     server,
     styles,
-    github
+    github,
+    projects: [projectPicture1, hero2, programmingLanguages],
+    car,
+    food,
+    packageImage,
+    survey,
+    packageImage2,
+    yatch,
+    ticket,
+    shoes,
+    developer
 }
 
 export default portfolioImages;

@@ -52,5 +52,86 @@
         "tools": "Tools",
         "styles": "Styles / UI",
         "softSkills": "Soft skills"
+    },
+    "projects": {
+        "professionalProjects": "Professional projects",
+        "projectsText": "Estos son algunos de los proyectos en los que he participado a lo largo de mi carrera profesional. Todos fueron desarrollados para clientes reales y llevados a producción, aplicando buenas prácticas de desarrollo, seguridad y rendimiento. Por razones de confidencialidad, no puedo compartir el código fuente públicamente, ya que pertenece a los respectivos propietarios. Sin embargo, estoy trabajando en una sección de Proyectos personales, donde sí podré mostrar el código y explicar en detalle las soluciones implementadas.",
+        "translations": {
+            "description": "Description",
+            "technologies": "Technologies",
+            "challenges": "Challenges"
+        },
+        "jvp": {
+            "description": "Secure ride-hailing company",
+            "activities": [
+                "Agregué nuevos endpoints en el servidor para atender requerimientos específicos",
+                "Optimicé alrededor de 20 endpoints existentes, mejorando su rendimiento y eficiencia",
+                "Diagnostiqué y corregí  errores visuales y funcionales en el sitio web mejorando la experiencia del usuario",
+                "Construí un nuevo sitio web, donde los usuarios pueden solicitar nuevos viajes."
+            ]
+        },
+        "iloveat": {
+            "description": " Mexican food online store",
+            "activities": [
+                "Diseñé e implementé una base de datos en MongoDB",
+                "Desarrollé un servidor web con Node.js y Express creando los endpoints necesarios",
+                "Integré servicios como Conekta para pagos en línea y Mailchimp para el envío automatizado de correos",
+                "Creé un sitio web donde los usuarios pueden gestionar sus cuentas, explorar el catálogo, realizar órdenes de compra y monitorear su estatus"
+            ]
+        },
+        "carlogic": {
+            "description": "Imports and logistics",
+            "activities": [
+                "Optimicé varios endpoints que realizan consultas SQL lo cual mejoró la velocidad hasta el 90%.",
+                "Integré la plataforma de Monday para crear y actualizar registros en varios tableros usando GraphQL.",
+                "Migré una aplicación web de AngularJS a la última versión de Angular para garantizar mayor rendimiento."
+            ]
+        },
+        "cxteam":{
+            "description": "Sistema de encuestas",
+            "activities": [
+                "Desarrolle un sitio web donde los usuarios pueden generar encuestas, usando un sistema de bloques (con la ayuda de la librería Drawflow).",
+                "Construí un simulador de una pantalla de tableta, para que los usuarios puedan visualizar las encuestas finales.",
+                "Incorporé varias de las herramientas de la plataforma Firebase como lo son Realtime Database para monitorear en tiempo real los dispositivos que participan en las encuestas, Authentication para permitir que solo usuarios autorizados puedan ingresar al sistema y Cloud Functions para ejecutar código backend en respuesta a eventos (crear, modificar y eliminar) un documento en Firestore."
+            ]
+        },
+        "rocket": {
+            "description": "Order shipment system",
+            "activities": [
+                "Desarrollé un servidor web que se conecta a los servicios de paqueterías como  FedEx, RedPack y Estafeta para crear y monitorear envíos para posteriormente actualizar la información en una base de datos.",
+                "Creé dos páginas una donde los usuarios pueden realizar las diferentes operaciones del flujo del sistema y otra informativa donde los clientes pueden conocer la empresa y además ponerse en contacto con ellos.",
+                "Diseñe e implemente un sistema reutilizable donde  se pueden actualizar varios registros a la vez a través de archivos csv."
+            ]
+        },
+        "yacht": {
+            "description": "Yacht Rental Catalog",
+            "activities": [
+                "Diseñé y desarrollé una API RESTful para gestionar el catálogo de yates, implementando autenticación basada en JWT. La API fue consumida por el frontend y conectada a una base de datos para almacenar la información del catálogo.",
+                "Construí un portal usando React para explorar y rentar yates, asegurando un diseño responsivo y una experiencia accesible en todos los dispositivos."
+            ]
+        },
+        "tickets": {
+            "description": "Sistema de Gestión de Tickets",
+            "activities": [
+                "Desarrollé un sistema completo de gestión de tickets para soporte técnico. Permitía a los usuarios registrar incidencias, dar seguimiento a sus solicitudes y recibir actualizaciones por parte del equipo de soporte.",
+                "Incluí funcionalidades de autenticación, panel administrativo, control de estados de tickets (abierto, en proceso, cerrado), y notificaciones."
+            ]
+        },
+        "vanvien": {
+            "description": "Calzado industrial",
+            "activities": [
+                "Diseñé y desarrollé una API RESTful para gestionar la actualización de datos en SQL Server, incluyendo la creación y optimización de varias tablas"
+            ]
+        },
+        "others": {
+            "description": "Pequeños proyectos en los que he trabajado",
+            "activities": [
+                "Programé aplicaciones de escritorio con Electron.js para automatizar procesos en un servidor de Windows.",
+                "Elaboré una aplicación en Python para realizar consultas y actualizaciones en una base de datos Firebird y gestionar información en Monday.com.",
+                "Construí varios sitios web pequeños utilizando tecnologías como React.js y Angular, adaptándome a las necesidades específicas de cada proyecto.",
+                "Realicé la migración de múltiples endpoints desde un servidor desarrollado en Laravel hacia una nueva arquitectura basada en Express.js, asegurando la compatibilidad y el correcto funcionamiento de las funcionalidades existentes.",
+                "Elabore varios endpoints en una RESTful API construida en Django."
+            ]
+        }
     }
 }
