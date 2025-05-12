@@ -4,19 +4,20 @@ type ContactInfoParams = {
     email: string,
     github: string,
     linkedIn: string
-    image:string
+    image:string,
+    title: string,
+    text: string
 }
 
-const ContactInfo = ( {email, github, linkedIn, image }: ContactInfoParams ) => {
+const ContactInfo = ( {email, github, linkedIn, image, title, text }: ContactInfoParams ) => {
     return(<>
         <section id="contacto" className="container py-5 mt-5">
             <div className="row justify-content-center text-center">
               <div className="col-md-8">
-                <h2 className="mb-4">Contacto</h2>
+                <h2 className="mb-4">{ title }</h2>
                 <img src={ image } className={`${styles.letterIcon}`} alt="contact" />
                 <p className="lead">
-                  ¿Te interesa trabajar conmigo o tienes alguna pregunta?
-                  No dudes en escribirme o visitar mis redes profesionales.
+                  { text }
                 </p>
             
                 <div className="mt-4">

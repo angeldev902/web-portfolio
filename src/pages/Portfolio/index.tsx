@@ -43,6 +43,8 @@ function Portfolio() {
                 github={contactData.github}
                 linkedIn={contactData.linkedIn}
                 image={portfolioImages.letter}
+                title={t.navbar.contact}
+                text={t.contact.contactText}
             />
 
         </>

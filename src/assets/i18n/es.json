@@ -136,5 +136,8 @@
                 "Elabore varios endpoints en una RESTful API construida en Django."
             ]
         }
+    },
+    "contact": {
+        "contactText": "¿Te interesa trabajar conmigo o tienes alguna pregunta? No dudes en escribirme o visitar mis redes profesionales."
     }
 }
