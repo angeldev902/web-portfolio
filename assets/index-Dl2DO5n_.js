@@ -1,0 +1,1 @@
+import{j as t,c as a}from"./index-D_JVyGuh.js";import{C as i}from"./index-DKJHnEbo.js";import{p as n}from"./pictures-ocwPaR8J.js";function m(){return t.jsx(t.Fragment,{children:t.jsx("div",{className:"container min-vh-100 p-auto",children:t.jsx(i,{email:a.email,github:a.github,linkedIn:a.linkedIn,image:n.letter})})})}export{m as default};
