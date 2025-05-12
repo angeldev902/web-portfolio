@@ -26,6 +26,7 @@ import yatch from '../assets/images/projects/yacht.png';
 import ticket from '../assets/images/projects/ticket.png';
 import shoes from '../assets/images/projects/shoes.png';
 import developer from '../assets/images/projects/full-stack-developer.svg';
+import letter from '../assets/images/contact/letter.png';
 
 const portfolioImages = {
     hero: [hero1, hero2, hero3],
@@ -49,7 +50,8 @@ const portfolioImages = {
     yatch,
     ticket,
     shoes,
-    developer
+    developer,
+    letter
 }
 
 export default portfolioImages;

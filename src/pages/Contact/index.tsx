@@ -1,6 +1,17 @@
+import ContactInfo from "../../components/common/ContactInfo";
+import { contactData } from "../../utils/contactData";
+import portfolioImages from "../../utils/pictures";
+
 function Contact() {
     return(<>
-        <h2>Contact</h2>
+        <div className="container min-vh-100 p-auto">
+            <ContactInfo
+                email={contactData.email}
+                github={contactData.github}
+                linkedIn={contactData.linkedIn}
+                image={portfolioImages.letter}
+            />
+        </div>
     </>)
 }
 

@@ -3,6 +3,7 @@ import { useTranslations } from '../../../hooks/useTranslations';
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store";
 import { setLanguage } from "../../../store/languageSlice";
+import { contactData } from "../../../utils/contactData";
 
 function Navbar(){
     const lang = useSelector((state: RootState) => state.language.lang);
@@ -17,7 +18,7 @@ function Navbar(){
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
                 <Link className="navbar-brand" to="/">
-                        Angel Full-Stack Developer
+                        { contactData.name }
                 </Link>
 
                 <div className="ms-auto">

@@ -2,8 +2,10 @@ import Hero from "../../components/common/Hero";
 import MediaObject from "../../components/common/MediaObject";
 import List from "../../components/common/List";
 import Section from "../../components/common/Section";
+import ContactInfo from "../../components/common/ContactInfo";
 import portfolioImages from "../../utils/pictures";
 import { useTranslations } from "../../hooks/useTranslations";
+import { contactData } from "../../utils/contactData";
 
 const technologies = ['Javascript', 'TypeScript', 'React', 'Angular', 'Node.js', 'Express.js', 'NestJS', 'Java', 'Spring boot', 'MongoDB', 'MySQL', 'Git'];
 
@@ -34,6 +36,13 @@ function Portfolio() {
                 buttonText={t.portfolio.seeProjects}
                 url="/projects"
                 image={portfolioImages.projectPicture1}
+            />
+
+            <ContactInfo
+                email={contactData.email}
+                github={contactData.github}
+                linkedIn={contactData.linkedIn}
+                image={portfolioImages.letter}
             />
 
         </>
