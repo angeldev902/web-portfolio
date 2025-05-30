@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <title>Page not found</title>
+    <meta http-equiv="refresh" content="0; URL=/" />
     <script>
-      sessionStorage.redirect = location.pathname;
+      // Redirige a la ruta correcta manteniendo la navegación del usuario
+      const redirectTo = location.pathname + location.search + location.hash;
+      sessionStorage.redirect = redirectTo;
       window.location.href = "/";
     </script>
   </head>
