@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from 'react';
 //Layout
 import Navbar from "./components/layout/Navbar";
@@ -13,7 +13,7 @@ const Skills = lazy(() => import('./pages/Skills'));
 function App() {
   return (
     <>
-      <Router basename="/web-portfolio">
+      <Router>
         <Navbar/>
         <div>
         <Suspense fallback={<div>Cargando...</div>}>
