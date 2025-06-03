@@ -6,3 +6,13 @@
     width: 12rem;
     margin-bottom: 3rem;
 }
+
+.contactContainer {
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .contactContainer {
+    flex-direction: row;
+}
+}

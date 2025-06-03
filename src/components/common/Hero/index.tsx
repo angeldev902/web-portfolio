@@ -48,7 +48,7 @@ const Hero = ({ images, title, subtitle, interval = 5000 }: HeroProps) => {
       <div className={`${styles.heroText} position-absolute top-50 start-50 translate-middle text-white text-center`}>
         <h1 className="display-4 fw-bold">{title}</h1>
         { subtitle && (
-          <p className="lead">{subtitle}</p>
+          <p className={`lead ${styles.subtitle}`}>{subtitle}</p>
         )}
       </div>
     </div>

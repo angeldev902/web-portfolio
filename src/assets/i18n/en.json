@@ -55,7 +55,7 @@
     },
     "projects": {
         "professionalProjects": "Professional Projects",
-        "projectsText": "These are some of the projects I have participated in throughout my professional career. All of them were developed for real clients and taken to production, applying best practices in development, security, and performance. Due to confidentiality reasons, I cannot publicly share the source code, as it belongs to their respective owners. However, I am working on a Personal Projects section, where I will be able to showcase the code and explain the implemented solutions in detail.",
+        "projectsText": "A selection of professional projects I’ve worked on. All were built for real clients and deployed to production following best practices. Due to confidentiality, the source code can't be shared.",
         "translations": {
             "description": "Description",
             "technologies": "Technologies",

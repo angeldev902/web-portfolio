@@ -28,7 +28,7 @@ const ContactInfo = ( {email, github, linkedIn, image, title, text }: ContactInf
                     </a>
                   </p>
             
-                  <div className="d-flex justify-content-center gap-4 mt-3">
+                  <div className={`d-flex justify-content-center gap-4 mt-3 ${styles.contactContainer}`}>
                     <a
                       href={`${ github }`}
                       className={`btn btn-outline-dark ${styles.contactButton}`}

@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store";
 import { setLanguage } from "../../../store/languageSlice";
 import { contactData } from "../../../utils/contactData";
+import styles from './Navbar.module.css';
 
 function Navbar(){
     const lang = useSelector((state: RootState) => state.language.lang);
@@ -17,7 +18,7 @@ function Navbar(){
     return(
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
-                <Link className="navbar-brand" to="/">
+                <Link className={`navbar-brand ${styles.title}`} to="/">
                         { contactData.name }
                 </Link>
 

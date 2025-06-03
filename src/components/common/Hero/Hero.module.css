@@ -52,10 +52,17 @@
   z-index: 3;
 }
 
+.subtitle{
+  display: none;
+}
+
 /* Tablets version */
 @media (min-width: 768px) {
   .heroContainer {
     height: 60vh;
+  }
+  .subtitle {
+    display: block;
   }
 }
 
@@ -65,3 +72,4 @@
     height: 70vh;
   }
 }
+
