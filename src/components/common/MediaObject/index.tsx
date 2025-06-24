@@ -12,7 +12,7 @@ const MediaObject = ({ title, text, picture }: MediaObjectProps) => {
             <div className="row align-items-center">
               <div className="col-12 col-md-6 mb-4 mb-md-0">
                 <h2>{ title }</h2>
-                <p>
+                <p className={`${styles.textDescription}`}>
                   { text }
                 </p>
               </div>

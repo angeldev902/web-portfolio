@@ -28,10 +28,6 @@ function About(){
                     imgSrc={portfolioImages.goals}
                     reverse={true}
                 />
-                <List
-                    title={t.navbar.skills}
-                    list={t.about.skills}
-                />
                 <SimpleList
                     title={t.about.workPhilosophy}
                     list={[]}
@@ -39,6 +35,10 @@ function About(){
                     imgSrc={portfolioImages.workPhilosophy}
                 />
             </div>
+            <List
+                title={t.navbar.skills}
+                list={t.about.skills}
+            />
         </>
     )
 }

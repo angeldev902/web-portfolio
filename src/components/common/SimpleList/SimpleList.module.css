@@ -1,3 +1,17 @@
 .picture{
     max-height: 450px;
 }
+
+.textStyles {
+    text-align: justify;
+}
+
+.listContainer {
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .listContainer {
+    width: 50%;
+  }
+}

@@ -11,11 +11,12 @@ type SimpleListPorps = {
 
 const SimpleList = ({ title, list, text, imgSrc, reverse, finalText }:SimpleListPorps) => {
     return(<>
-        <div className={`d-flex flex-column flex-md-row ${reverse ? 'flex-md-row-reverse' : ''} align-items-center my-5`}>
+        <div className={`d-flex flex-column flex-md-row 
+            ${styles.textStyles}  ${reverse ? 'flex-md-row-reverse' : ''} align-items-center my-5`}>
             <div className="col-md-6 p-4">
               <img src={imgSrc} className={`img-fluid rounded ${styles.picture}`} alt={title} />
             </div>
-            <div className="col-md-6 p-4">
+            <div className={`col-md-6 p-4 ${styles.listContainer}`}>
                 <h3>{ title }</h3>
                 { text && (
                     <p>{ text }</p>

@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.iconContact {
+    margin-left: 1rem;
+}
+
 @media (min-width: 1024px) {
   .contactContainer {
     flex-direction: row;

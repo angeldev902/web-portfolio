@@ -1,0 +1,16 @@
+
+.elementContainer{
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+   .elementContainer{
+        min-height: auto;
+        display: block;          
+        align-items: unset; 
+        justify-content: unset;
+    }
+}

@@ -35,8 +35,8 @@ const ContactInfo = ( {email, github, linkedIn, image, title, text }: ContactInf
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      GitHub 
-                      <i className="bi bi-github"></i>
+                      GitHub
+                      <i className={`bi bi-github ${styles.iconContact}`}></i>
                     </a>
             
                     <a
@@ -46,7 +46,7 @@ const ContactInfo = ( {email, github, linkedIn, image, title, text }: ContactInf
                       rel="noopener noreferrer"
                     >
                       LinkedIn
-                      <i className="bi bi-linkedin"></i>
+                      <i className={`bi bi-linkedin icon-contact ${styles.iconContact}`}></i>
                     </a>
                   </div>
                 </div>

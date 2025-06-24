@@ -1,3 +1,4 @@
+import styles from './List.module.css';
 
 type ListPorps = {
     title:string,
@@ -12,7 +13,7 @@ const List = ({ title, list }:ListPorps) => {
               <div className="row justify-content-center">
                 {list.map((element) => (
                   <div key={element} className="col-6 col-sm-4 col-md-3 mb-3">
-                    <div className="p-3 bg-secondary text-white rounded shadow-sm">
+                    <div className={`${styles.elementContainer} p-3 bg-secondary text-white rounded shadow-sm`}>
                       {element}
                     </div>
                   </div>

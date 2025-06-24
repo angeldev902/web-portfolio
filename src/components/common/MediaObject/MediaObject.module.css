@@ -1,3 +1,7 @@
 .picture {
     max-width: 250px;
 }
+
+.textDescription {
+    text-align: justify;
+}
